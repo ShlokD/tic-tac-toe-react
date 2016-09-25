@@ -1,0 +1,56 @@
+.ttt-game-grid {
+  background-color: #99ddff;
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.ttt-game-grid:hover {
+  background-color: #e6ffcc
+}
+
+.game-grid-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.ttt-element {
+  width: 120px;
+  height: 120px;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 72px;
+  line-height: 110px;
+  text-align: center;
+}
+
+.ttt-cross {
+  background-color: #ff8080
+}
+
+.ttt-zero {
+  background-color: #cc99ff
+}
+
+.game-board {
+  position: absolute;
+  top:25%;
+  left: 25%;
+  display:flex;
+  flex-direction: row;
+}
+
+.game-current-turn {
+  display: inline-block;
+  margin-left: 120px;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
