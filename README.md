@@ -9,4 +9,4 @@ Other dependencies : Redux, Lodash
 
 To run 
 
-`npm start`
+`npm start` and open 'localhost:3000' in browser
